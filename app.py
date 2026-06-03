@@ -8,7 +8,7 @@ import os
 # -----------------------------
 # TMDb API Key 
 # -----------------------------
-API_KEY = "b8b71f5effbf12306d65ac30d3d48ce9"  
+API_KEY = st.secrets["TMBD_API_KEY"]  
 
 # -----------------------------
 # Download similarity.pkl from Google Drive if not present
@@ -67,8 +67,8 @@ def recommend(movie_title):
 # Streamlit UI
 # -----------------------------
 # Change the app title and icon
-st.set_page_config(page_title="YourName's Movie Picks", page_icon="🍿", layout="wide")
-st.title("🍿 YourName's Movie Recommender")
+st.set_page_config(page_title="Umesh's Movie Picks", page_icon="🍿", layout="wide")
+st.title("🍿 Umesh's Movie Recommender")
 
 # Optional: add a description
 st.markdown("Find movies similar to your favorites using AI-powered recommendations!")
