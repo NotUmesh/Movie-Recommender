@@ -12,7 +12,7 @@ A content-based movie recommendation system using Natural Language Processing (N
 
 Try the live deployed app here:
 Movie Recommender System on Streamlit Cloud
-[https://movie-recommender-system-priyanshuverma87.streamlit.app/]
+[https://movie-recommender-o65tuqbmhyjvqdbtpsgu6d.streamlit.app/]
 
 ## Demo
 
